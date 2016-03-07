@@ -59,7 +59,7 @@ V:
       P(A∩B∩C)=P(A)*P(B)*P(C)  
 * If A, B & C Є Ω & are dependient events: 
       P(A∩B∩C)=P(A)*P(B⁄A)*P(C⁄(A∩B)) 
-* Si A, B Є Ω & are coditioned events:
+* If A, B Є Ω & are coditioned events:
 
   The probability of A given that B happened is: 
       P(A⁄B)=(P(A∩B))/(P(B)) ; 
