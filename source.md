@@ -63,10 +63,10 @@ V:
 
   The probability of A given that B happened is: 
       P(A⁄B)=(P(A∩B))/(P(B)) ; 
-      that is if B came first A. 
+      
   The probability of B given that A happened is: 
        P(B⁄A)=(P(A∩B))/(P(A)); 
-       that is if B came first A. 
+       
 
 
 H:
