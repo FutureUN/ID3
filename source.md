@@ -45,28 +45,28 @@ V:
 
 * P(Ω) = 1 
 * P(ø) = 0 
-* Si AЄΩ y Ac es el complemento de A:
+* If AЄΩ & Ac is the complement of A:
 		P(Ac)= 1-P(A)
-* Si A, B Є Ω puede suceder que: 
-      A y B sean excluyentes; en este caso: 
+* If A, B Є Ω it may happen that: 
+      A & B & are exclusive; in this case: 
             P(AUB)=P(A)+P(B) 
-      A y B Є Ω y NO sean excluyentes: 
+      A & B Є Ω & are NOT exclusive: 
             P(A∪B)=P(A)+P(B)-P(A∩B) 
 
 V:
 
-* Si A, B y C Є Ω y además son independientes:  
+* If A, B & C Є Ω & are independients also:  
       P(A∩B∩C)=P(A)*P(B)*P(C)  
-* Si A, B y C Є Ω y son eventos dependientes: 
+* If A, B & C Є Ω & are dependient events: 
       P(A∩B∩C)=P(A)*P(B⁄A)*P(C⁄(A∩B)) 
-* Si A, B Є Ω y son eventos condicionados:
+* Si A, B Є Ω & are coditioned events:
 
-  La probabilidad de A dado que B ocurrió es: 
+  The probability of A given that B happened is: 
       P(A⁄B)=(P(A∩B))/(P(B)) ; 
-      esto es si B ocurrió primero que A. 
-  La probabilidad de B dado que A ocurrió es: 
+      that is if B came first A. 
+  The probability of B given that A happened is: 
        P(B⁄A)=(P(A∩B))/(P(A)); 
-       esto es si A ocurrió primero que B.
+       that is if B came first A. 
 
 
 H:
