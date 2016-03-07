@@ -30,18 +30,18 @@ H:
 
 # Index
 <!-- .slide: data-background="#7E2121" --> 
- 1. Teoremas Básicos de probabilidad <!-- .element: class="fragment" data-fragment-index="0"-->
+ 1. Basic Theorems of Probability<!-- .element: class="fragment" data-fragment-index="0"-->
  1. Bayes' Theorem. <!-- .element: class="fragment" data-fragment-index="1"-->
  1. Decision Tree.  <!-- .element: class="fragment" data-fragment-index="2"-->
  1. ID3 Algorithm. <!-- .element: class="fragment" data-fragment-index="3"-->
 	
 
 H:
-#Teoremas Básicos
+#Basic Theorems
 
 V:
 
-###Teoremas:
+###Theorems:
 
 * P(Ω) = 1 
 * P(ø) = 0 
