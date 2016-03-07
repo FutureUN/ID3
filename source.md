@@ -30,10 +30,45 @@ H:
 
 # Index
 <!-- .slide: data-background="#7E2121" --> 
+ 1. Teoremas Básicos de probabilidad <!-- .element: class="fragment" data-fragment-index="0"-->
  1. Bayes' Theorem. <!-- .element: class="fragment" data-fragment-index="1"-->
  1. Decision Tree.  <!-- .element: class="fragment" data-fragment-index="2"-->
  1. ID3 Algorithm. <!-- .element: class="fragment" data-fragment-index="3"-->
 	
+
+H:
+#Teoremas Básicos
+
+V:
+
+###Teoremas:
+
+* P(Ω) = 1 
+* P(ø) = 0 
+* Si AЄΩ y Ac es el complemento de A:
+		P(Ac)= 1-P(A)
+* Si A, B Є Ω puede suceder que: 
+      A y B sean excluyentes; en este caso: 
+            P(AUB)=P(A)+P(B) 
+      A y B Є Ω y NO sean excluyentes: 
+            P(A∪B)=P(A)+P(B)-P(A∩B) 
+
+V:
+
+* Si A, B y C Є Ω y además son independientes:  
+      P(A∩B∩C)=P(A)*P(B)*P(C)  
+* Si A, B y C Є Ω y son eventos dependientes: 
+      P(A∩B∩C)=P(A)*P(B⁄A)*P(C⁄(A∩B)) 
+* Si A, B Є Ω y son eventos condicionados:
+
+  La probabilidad de A dado que B ocurrió es: 
+      P(A⁄B)=(P(A∩B))/(P(B)) ; 
+      esto es si B ocurrió primero que A. 
+  La probabilidad de B dado que A ocurrió es: 
+       P(B⁄A)=(P(A∩B))/(P(A)); 
+       esto es si A ocurrió primero que B.
+
+
 H:
 
 # Bayes' Theorem
