@@ -67,7 +67,19 @@ V:
       
   The probability of B given that A happened is: 
        P(B⁄A)=(P(A∩B))/(P(A)); 
-       
+
+# Bayes' Theorem
+<!-- .slide: data-background="#005050" -->
+
+V:
+##Statement of Theorem 
+Bayes' theorem is stated mathematically as the following equation:
+
+<img src="images/bayes.png" alt="bayes" with="150" height="150"></img>
+>where A and B are events.
+
+
+
 H:
 #Entropy and Gain
 
@@ -111,15 +123,6 @@ V:
 <img src="images/Tabla2.JPG" ></img>
 H:
 
-# Bayes' Theorem
-<!-- .slide: data-background="#005050" -->
-
-V:
-##Statement of Theorem 
-Bayes' theorem is stated mathematically as the following equation:
-
-<img src="images/bayes.png" alt="bayes" with="150" height="150"></img>
->where A and B are events.
 
 H:
 # Decision Tree 
