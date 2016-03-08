@@ -32,8 +32,9 @@ H:
 <!-- .slide: data-background="#7E2121" --> 
  1. Basic Theorems of Probability<!-- .element: class="fragment" data-fragment-index="0"-->
  1. Bayes' Theorem. <!-- .element: class="fragment" data-fragment-index="1"-->
- 1. Decision Tree.  <!-- .element: class="fragment" data-fragment-index="2"-->
- 1. ID3 Algorithm. <!-- .element: class="fragment" data-fragment-index="3"-->
+ 1. Entropy <!-- .element: class="fragment" data-fragment-index="2"-->
+ 1. Decision Tree.  <!-- .element: class="fragment" data-fragment-index="3"-->
+ 1. ID3 Algorithm. <!-- .element: class="fragment" data-fragment-index="4"-->
 	
 
 H:
@@ -67,8 +68,27 @@ V:
   The probability of B given that A happened is: 
        P(B⁄A)=(P(A∩B))/(P(A)); 
        
+H:
+#Entropy
 
+V:
 
+##Definition
+A measure of the uncertainty that exists in a system. That is, in a given situation, the probability of occurring each of the possible outcomes.
+
+V:
+##Interpretation
+
+An example of the binary entropy could get a ball of white or black from a bag.
+
+• If the bag there are 3 white balls and 3 black the result is completely unknown, that is to say uncertainty is high, ie entropy is 1.
+
+<img src="images/bolsa1.png" alt="bayes" with="250" height="250"></img>
+
+V:
+
+• If the bag is 6 black balls the result is known in advance, then there is no uncertainty, and entropy is 0.
+ <img src="images/bolsa0.png" alt="bayes" with="250" height="250"></img>
 H:
 
 # Bayes' Theorem
