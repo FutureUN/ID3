@@ -38,6 +38,7 @@ H:
 	
 
 H:
+<!-- .slide: data-background="#005050" -->
 #Basic Theorems
 
 V:
@@ -68,6 +69,8 @@ V:
   The probability of B given that A happened is: 
        P(B⁄A)=(P(A∩B))/(P(A)); 
 
+
+H:
 # Bayes' Theorem
 <!-- .slide: data-background="#005050" -->
 
@@ -121,8 +124,6 @@ V:
 <img src="images/rare3.jpg" alt="" ></img>
 V:
 <img src="images/Tabla2.JPG" ></img>
-H:
-
 
 H:
 # Decision Tree 
