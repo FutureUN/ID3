@@ -69,12 +69,14 @@ V:
        P(B⁄A)=(P(A∩B))/(P(A)); 
        
 H:
-#Entropy
+#Entropy and Gain
 
 V:
 
-##Definition
+##Entropy
 A measure of the uncertainty that exists in a system. That is, in a given situation, the probability of occurring each of the possible outcomes.
+
+<img src="images/rare2.jpg" alt="entropy" ></img>
 
 V:
 ##Interpretation
@@ -89,6 +91,24 @@ V:
 
 • If the bag is 6 black balls the result is known in advance, then there is no uncertainty, and entropy is 0.
  <img src="images/bolsa0.png" alt="bayes" with="250" height="250"></img>
+V:
+##Gain
+>is the difference between the entropy of a node and one of its descendants.
+
+<img src="images/rare1.jpg" alt="Gain" ></img>
+ V: 
+##Example 
+ID3 examines all the attributes and choose the maximum gain, forms the
+branch and uses the same process recursively to form sub-trees from the n generated nodes. 
+
+<img src="images/DiagramTree.JPG" alt="Dragram Tree" height="400" ></img>
+
+V:
+
+<img src="images/Tabla1.JPG" alt="Table 1" width="600"></img>
+<img src="images/rare3.jpg" alt="" ></img>
+V:
+<img src="images/Tabla2.JPG" ></img>
 H:
 
 # Bayes' Theorem
@@ -105,9 +125,9 @@ H:
 # Decision Tree 
 <!-- .slide: data-background="#7E2121"  -->
 V:
-asfdasdfasdf
 
 H: 
 <!-- .slide: data-background="#005050" -->
 ##Iterative Dichomiser 3 (ID3) Algorithm
+
 
