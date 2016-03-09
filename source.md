@@ -42,10 +42,33 @@ H:
 #Basic Theorems
 
 V:
+##Axiomatic definition of probability
 
-###Theorems:
+Let (Ω, F, P) be a measure space with P(Ω)=1. Then (Ω, F, P) is a probability space, with sample space Ω, event space F and probability measure P.
 
-* P(Ω) = 1 
+P set function defined on A with values in [0, 1]
+
+>P : A −→ R 
+
+V:
+ Must satisfy the following three axioms:
+
+* The probability of an event is a non-negative real number:
+		P(A) ≥ 0, ∀A ∈ A
+
+* The probability  in the entire sample space  is 1.
+
+		P(Ω) = 1
+
+* This is the assumption of σ-additivity:
+ 
+		Ai ∩ Aj = ∅ ∀i ≠ j, 
+		
+<img src="images/j1.png" width="300" ></img>
+
+V:
+###Consequences:
+
 * P(ø) = 0 
 * If AЄΩ & Ac is the complement of A:
 		P(Ac)= 1-P(A)
