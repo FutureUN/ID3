@@ -164,6 +164,62 @@ V:
 
 H: 
 <!-- .slide: data-background="#005050" -->
-##Iterative Dichomiser 3 (ID3) Algorithm
+#Iterative Dichomiser 3 (ID3) Algorithm
+V:
+## ID3
 
+Algorith invented by Ross Quinlan (1983), used in the machine learning and 
+natural language procesing to generate a decision tree from dataset.
+
+V:
+
+Issues that faces this kind of algorithms:
+
+* Choosing spliting attributes
+
+* Orderin of splitting attributes
+
+* Number of splits to take
+
+* Balance of tree structure
+
+* Stopping criteria
+V:
+
+> Its objective is to determine the best classification attribute form condition
+attribute sets.
+
+>He algorith chooses information gain as attribute of current node, in order
+to make information entropy that divided subsets need smallest.
+
+V:
+
+##Entropy
+
+Given probabilities p1, p2, …, ps , where ∑pi = 1, Entropy is defined as:
+
+<img src="images/id31.jpg" ></img>
+
+V:
+>H(p1, p2, …, ps) = ∑ - (pi log pi)
+
+Entropy finds the amount of order in a given database state. A value of H = 0 identifies a 
+perfectly classified set. In other words, the higher the entropy, the higher the potential to 
+improve the classification process.
+
+V:
+## Information Gain
+
+ID3 chooses the splitting attribute with the highest gain in information, 
+where gain is defined as difference between how much information is 
+needed after the split.
+
+V:
+
+This is calculated by determining the differences
+between the entropies of the original dataset and the weighted sum of 
+the entropies from each of the subdivided datasets. The formula used 
+for this purpose is
+
+<img src="images/id32.jpg" ></img>
 
