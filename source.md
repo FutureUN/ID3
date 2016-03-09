@@ -83,6 +83,43 @@ Bayes' theorem is stated mathematically as the following equation:
 
 
 
+
+H:
+# Decision Tree 
+<!-- .slide: data-background="#7E2121"  -->
+V:
+##Structure
+* __Nodes__: Names or identifiers of the attributes
+* __Branches__: Possible values associated to the node attribute.
+* __Leaves__: Sets of examples already classified and labeled with the name of a class.
+
+V:
+##Data
+
+* __Attributes__: Are the factors that influence the classification or decision.
+* __Class__: Possible values of solution.
+* __Examples__: Are the set of combinations of given attributes.
+
+V:
+You can choose between 2 business projects: a candy shop or a lemonade stand.
+
+<img src="images/tree1.png" ></img>
+
+Which will you choose? 
+Surely the candy shop.
+
+V:
+Given the percents of failure and success of each project:
+
+<img src="images/tree2.png" ></img>
+
+Now, which will you choose?
+
+V:
+Calculating the expeted values, it's easy make a good choice
+
+<img src="images/tree3.png" ></img>
+
 H:
 #Entropy and Gain
 
@@ -124,11 +161,6 @@ V:
 <img src="images/rare3.jpg" alt="" ></img>
 V:
 <img src="images/Tabla2.JPG" ></img>
-
-H:
-# Decision Tree 
-<!-- .slide: data-background="#7E2121"  -->
-V:
 
 H: 
 <!-- .slide: data-background="#005050" -->
