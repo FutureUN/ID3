@@ -171,19 +171,7 @@ V:
 >is the difference between the entropy of a node and one of its descendants.
 
 <img src="images/rare1.jpg" alt="Gain" ></img>
- V: 
-##Example 
-ID3 examines all the attributes and choose the maximum gain, forms the
-branch and uses the same process recursively to form sub-trees from the n generated nodes. 
 
-<img src="images/DiagramTree.JPG" alt="Dragram Tree" height="400" ></img>
-
-V:
-
-<img src="images/Tabla1.JPG" alt="Table 1" width="600"></img>
-<img src="images/rare3.jpg" alt="" ></img>
-V:
-<img src="images/Tabla2.JPG" ></img>
 
 H: 
 <!-- .slide: data-background="#005050" -->
@@ -212,7 +200,7 @@ V:
 > Its objective is to determine the best classification attribute form condition
 attribute sets.
 
->He algorith chooses information gain as attribute of current node, in order
+>The algorithm chooses information gain as attribute of current node, in order
 to make information entropy that divided subsets need smallest.
 
 V:
@@ -245,4 +233,88 @@ the entropies from each of the subdivided datasets. The formula used
 for this purpose is
 
 <img src="images/id32.jpg" ></img>
+
+ V: 
+##Example 
+ID3 examines all the attributes and choose the maximum gain, forms the
+branch and uses the same process recursively to form sub-trees from the n generated nodes. 
+
+<img src="images/Tabla2.JPG" alt="Dragram Tree" height="400" ></img>
+
+V:
+
+<img src="images/Tabla1.JPG" alt="Table 1" width="600"></img>
+<img src="images/rare3.jpg" alt="" ></img>
+V:
+<img src="images/DiagramTree.JPG" ></img>
+
+H: 
+<!-- .slide: data-background="#005050" -->
+#Predecting student’s performance using the ID3 algorithm
+V:
+## Description
+
+
+Provide a good perspective of the probable results of students admited in Fr. C. Rodrigues Institute of Technology, based on past performance.
+
+
+V:
+## Sample Space	
+
+Enrolled students of the first year of engineering. Data given for each student:
+
+* Full Name
+* Gender
+* Application ID
+* Scores in board examinations of classes X and XII
+* Scores in entrance examinations
+* Category and admission type
+
+V:
+## Manage the data
+ 
+* Data mining
+* Classification 
+* Clustering
+
+V: 
+## Implementation
+1. Information about old students was collected
+1. Extraneous information was removed.
+1. Applying the ID3 algorithm to obtain decision tree
+1. The test data was applied to the decision trees
+1. Developing the front end in the form of a web application
+
+V:
+## Data
+
+<img src="images/table1Std.png" ></img>
+
+V:
+
+## Selecting the classes
+
+* The __merit__ attribute had a value:
+        good if the score >=  120 
+        bad if the  score < 120
+* The __percentage__ of marks scored by the student in the subjects of Physics, Chemistry and Mathematics :
+        “distinction” : score >= 70
+        “first_class” : score < 70 & >= 60
+        “second_class” : score < 60
+* Admission __type__
+        AI ( all-indian seats) 
+        Other
+
+V:
+## The Result Tree
+
+<img src="images/treeID3.png" ></img>
+
+
+V:
+## Test the tree
+
+They built a platafform where the user upload the information, then using the decision tree pedict if the student will pass or not.
+
+>The accuracy of the information was  75.145% 
 
